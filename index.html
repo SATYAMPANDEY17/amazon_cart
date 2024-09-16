@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script>function one()
+      {
+      var h= document.getElementById('h2').innerHTML;
+      var s= document.getElementById('sel').value;
+      document.getElementById('h1').innerHTML="₹"+h*s;
+      document.getElementById('b').innerHTML=s;
+      document.getElementById('n').innerHTML="₹"+"<b>"+h*s+"</b>";
+      document.getElementById('s').innerHTML=s;
+      document.getElementById('l').innerHTML="₹"+"<b>"+h*s+"</b>";
+      }</script>    
+  </head>
+  <body style="background-color: aqua;">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid" style="background-color: black;">
+        <a class="navbar-brand" href="#"><img src="image/1.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><img src="image/2.png" style="margin-top: 20px;" height="30" width="30" alt=""></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><p style="color: white; margin-top: 10px;">Hello <br/> Select Your Adresss</p>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn btn-outline-success a" style="margin-top: 10px;" type="submit">All</button>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 " style="margin-top: 18px;" type="search" placeholder="Search Amazon.in" aria-label="Search">
+              <button class="btn btn-outline-success a" style="margin-top: 18px;"  type="submit"></button>
+            </form>
+            <img  src="image/4.png" style="margin-top: 25px;"  height="30px" width="50px">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle k" style="margin-top: 20px;"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span  >En</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle k"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <p style="color: aliceblue; font-size: small;">Hello,Sign in</p>
+                <button class="btn btn-outline-success a " id="i" type="submit">Address&List</button>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+        </div>
+      </div>
+    </nav> 
+    <nav class="navbar navbar-dark bg-dark" aria-label="First navbar example" style="margin-top: -12px;">
+      <div class="container-fluid x" >
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse show" id="navbarsExample01" >
+          <ul class="navbar-nav me-auto mb-1">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form role="search">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
+        <a href=""><p style="color: aliceblue; font-size: small; padding: 0px;">Amazon miniTv</p></a>
+        <a href=""><p style="color: aliceblue; font-size: small;">Sell</p></a>
+        <a href=""><p style="color: aliceblue; font-size: small;">Best Seller</p></a>
+        <a href=""><p style="color: aliceblue; font-size: small;">Mobiles</p></a>
+        <a href=""><p style="color: aliceblue; font-size: small;">Today's Deals</p></a>
+        <a href=""><p style="color: aliceblue; font-size: small;"> Electronics</p></a>
+        <a href=""><p style="color: aliceblue; font-size: small;">Customer Service</p></a>
+        <a href=""><p style="color: aliceblue; font-size: small;">New Release</p></a>
+        <a href=""><p style="color: aliceblue; font-size: small;">Prime</p></a>
+        <a href=""><p style="color: aliceblue; font-size: small;">Home Kitchen</p></a>
+        <a href=""><p style="color: aliceblue; font-size: small;">Amazon Pay</p></a>
+        <a href=""><p style="color: aliceblue; font-size: small;">Computers</p></a>
+        <a href=""><p style="color: aliceblue; font-size: small;">Fashion</p></a>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="container b" style="background-color: aqua;">
+        <div class="row align-items-start">
+          <div class="col-8 v">
+            <div class="row ">
+            <div class="col"><h3 style="text-align: left;">Shopping Cart</h3></div>
+            <div class="col"></div>
+            <div class="col c1"><h6>Price</h6></div></div>
+            <hr>
+            <div class="row">
+              <div class="col"><img src="image/5.jpg" alt=""></div>
+              <div class="col"><b>Fire-Boltt Gladiator 1.96" Biggest Display Smart Watch with Bluetooth Calling, Voice Assistant &123 Sports Modes, 8 Unique UI Interactions, SpO2, 24/7 Heart Rate Tracking (Black)</b>
+               <br>
+                <span>₹</span>
+                <span id="h2" >1999 </span><br/>
+                <span style="color: red;">in stock</span>
+                <br/>
+                <span>Eligible For free Shipping</span>
+                <br/>
+                <input type="checkbox" >This Will Be a Gift
+              </div>
+              <div class="col c1">
+                <h4 id="h1" >₹1999</h4>
+                        <select id="sel" class="j" onchange="one()">
+                        <option value="1">qty:1</option>
+                        <option value="2">qty:2</option>
+                        <option value="3">qty:3</option>
+                        <option value="4">qty:4</option>
+                        </select>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col"><h3 style="text-align: left;"></h3></div>
+                <div class="col"></div>
+                <div class="col c1"><span id="">Subtotal(<span id="s">1</span>items):</span><span id="l"></span></div></div>
+            </div>
+          </div>
+          <div class="col-2 m ">
+            <input type="radio"> Your order is Eligible for Free Delivery.Select option for Checkout.Details<br>
+            <span id=""><b>Subtotal</b>(<span id="b">1</span><b>items</b>):</span><span id="n"></span><br/>
+            <input type="checkbox" >This Order contains a Gift<br/><br/>
+            <button type="button" class="btn btn-secondary d">Proceed to Buy</button><br/><br/>
+            <button type="button" class="btn btn-secondary e">EMI available</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <script src="js/bootstrap.bundle.js">
+    </script>  
+  </body>
+</html>
